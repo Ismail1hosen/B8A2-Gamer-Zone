@@ -153,17 +153,29 @@ body{
     opacity: 1.2;
 }
 
-.hover-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .hover-text{
     color: #FF42A5;
     font-size: 18px;
     font-weight: 600;
     margin: 0;
     line-height: 20px;
+}
+
+/* instant section style */
+.instant-conteiner{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 200px;
+}
+.moving-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.moving-img{
+    left: 50%;
 }
 
