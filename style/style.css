@@ -160,10 +160,17 @@ body{
     font-weight: 600;
     margin: 0;
     line-height: 20px;
+    padding: 10px;
 }
 
+
 /* instant section style */
+
 .instant-conteiner{
+    position: relative;
+}
+.instant-box{
+    
     display: flex;
     gap: 130px;
     align-items: center;
@@ -192,10 +199,38 @@ body{
 }
 .moving-section img{
     max-width: 210px;
-    max-height: 390px;
+    position: relative;
 }
 .moving-section{
-    transform: translateX(42%) translateY(-270px);
+    position: absolute;
+    left: 42%;
+    bottom: 30px;
+    /* top: 60px; */
+}
+
+/* logon & logo name section */
+.logo-conteiner{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 140px;
+    margin: 0;
+
+}
+.logo-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo-div img{
+    width: 25px;
+}
+.logo-name{
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
