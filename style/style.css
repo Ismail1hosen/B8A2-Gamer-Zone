@@ -61,6 +61,7 @@ body{
     padding: 30px;
     border-radius: 12px;
     background-color: rgba(241, 68, 174, 0.03);
+    box-shadow: 0px 4px 30px 0px rgba(205, 183, 183, 0.05);
     
 }
 .play-btn1, .play-btn2 {
@@ -98,12 +99,15 @@ body{
 .online-span{
     color: #c42beb;
 }
-.online-details{
+.online-description, .online-details{
     text-align: center;
     font-size: 15px;
     line-height: 20px;
    
     font-weight: 400; 
+}
+.online-details{
+    text-align: left;
 }
 .videos-conteiner{
 
@@ -118,6 +122,36 @@ body{
     height: 330px;
 }
 
+.hover-effect {
+    position: relative;
+    width: 245px; /* Adjust the width and height as needed */
+    height: 330px;
+    overflow: hidden;
+}
+
+.hover-effect img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+.hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 15px;
+}
+.hover-content:hover{
+    opacity: 1.2;
+}
 
 .hover-content{
     display: flex;
@@ -126,7 +160,9 @@ body{
     justify-content: center;
 }
 .hover-text{
-    color: #c42beb;
+    color: #FF42A5;
+    font-size: 18px;
+    font-weight: 600;
     margin: 0;
     line-height: 20px;
 }
