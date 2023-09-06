@@ -407,13 +407,22 @@ body{
         justify-content: center;
         padding: 10px 10px;
     }
+    .gamer-heading{
+        font-size: 30px;
+    }
     .gamer-details{
         text-align: center;
     }
+    .propose-span{
+        font-size: 22px;
+    }
     /* online section */
 
+    .online-text-conteiner{
+        padding: 10px;
+    }
     .online-text{
-        font-size: 34px;
+        font-size: 27px;
     }
     .videos-conteiner{
         flex-direction: column;
@@ -432,56 +441,57 @@ body{
     
         flex-direction: column;
         gap: 40px;
-        padding: 0 70px;
+        padding: 0 10px;
     }
     .text-conteiner{
-        max-width: 341px;
+        max-width: 241px;
         text-align: center;
     }
-
+    .instant-text{
+        font-size: 30px;
+        line-height: 35px;
+    }
     .img-conteiner img{
-        max-width: 335px;
+        max-width: 270px;
     }
     .moving-section img{
-        max-width: 140px;
+        max-width: 110px;
         position: relative;
     }
     .moving-section{
         position: absolute;
-        left: 12%;
-        bottom: -25px;
+        left: 8%;
+        bottom: -21px;
         
     }
     /* game logo section */
 
     .logo-conteiner{
-        gap: 20px;
+        gap: 7px;
         flex-wrap: wrap;
-        padding: 30px 70px 20px;
-        margin-top: 20px;
+        padding: 30px 10px 20px;
+        /* margin-top: 20px; */
     
     }
     .logo-btn{
         
-        gap: 5px;
-        align-items: center;
-        border: 0;
-        background-color: #FFF;
+        gap: 3px;
         border-radius: 25px;
     }
     .logo-btn img{
         width: 15px;
     }
     .logo-name{
-        color: #0B0223;
         font-size: 11px;
-        font-weight: 600;
+    }
+    .logo-div :hover{
+        padding:0 5px;
     }
 
     /* footer section */
     .footer-section{
         margin-top: 20px;
-        padding: 30px;
+        padding: 10px;
     }
     .footer-logo{
         flex-wrap: wrap;
@@ -494,7 +504,7 @@ body{
     .service-details {
         flex-wrap: wrap;
         gap: 30px;
-        padding: 10px 130px;
+        padding: 10px 70px;
        
     }
     .our-services{
@@ -505,14 +515,14 @@ body{
         gap: 30px;
         align-items: center;
         justify-content: center;
-        padding: 10px 130px;
+        padding: 10px 70px;
         
         
     }
     .security-options{
         flex-wrap: wrap;
         gap: 20px;
-        padding: 10px 90px;
+        padding: 10px 50px;
         line-height: 30px;
         
         
@@ -520,7 +530,7 @@ body{
     .address-details{
         font-size: 11px;
         line-height: 24px;
-        padding: 5px 130px;
+        padding: 5px 60px;
         
     }
 
