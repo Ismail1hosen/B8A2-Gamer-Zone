@@ -175,7 +175,7 @@ body{
     text-align: left;
 }
 .online-details1{
-    width: 200px;
+    max-width: 12.5rem;
 }
 .videos-conteiner{
     display: flex;
@@ -195,7 +195,7 @@ body{
 
 .hover-effect {
     position: relative;
-    width: 315px; /* Adjust the width and height as needed */
+    max-width: 315px; /* Adjust the width and height as needed */
     overflow: hidden;
 }
 
@@ -303,7 +303,7 @@ body{
 }
 .logo-btn img{
     width: 45px;
-    height: 45px;
+    
 }
 .logo-name{
     color: #0B0223;
@@ -457,10 +457,8 @@ body{
     }
     .moving-section img{
         max-width: 110px;
-        position: relative;
     }
     .moving-section{
-        position: absolute;
         left: 8%;
         bottom: -21px;
         
@@ -537,3 +535,43 @@ body{
 
     
 }
+/* for tablet */
+@media screen and (max-width: 768px) {
+    /* instant sections img positioning */
+    
+    .img-conteiner img{
+        max-width: 370px;
+    }
+    .moving-section img{
+        max-width: 150px;
+    }
+    .moving-section{
+        left: 18%;
+        bottom: -21px;
+        
+    }
+    /* logo section for tab */
+
+    .logo-conteiner{
+        gap: 7px;
+        padding: 30px 120px 20px;
+    
+    }
+    .logo-btn{
+        gap: 5px;
+        
+    }
+    .logo-btn img{
+        width: 25px;
+    }
+    .logo-name{
+        font-size: 14px;
+    }
+    .logo-div :hover{
+        padding:0 8px;
+        border-radius: 50px;
+    }
+    
+}
+/*  responsive for laptop */
+
