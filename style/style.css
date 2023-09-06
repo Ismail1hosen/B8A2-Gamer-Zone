@@ -4,6 +4,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    max-width: 1920px;
 }
 /* navigation section */
 .nav-bar{
@@ -12,7 +13,7 @@ body{
     justify-content: space-between;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 0 150px;
+    padding: 0 240px;
 }
 .logo-section {
     display: flex;
@@ -22,17 +23,20 @@ body{
 
 }
 .logo{
-    width: 50px;
-    height: 25px;
+    width: 55px;
+    height: 27px;
+}
+.primary-tex{
+    font-size: 42px;
 }
 .span-text{
     color: #FF42A5;
 }
 .nav-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 .nav-btn {
-    font-size: 11px;
+    font-size: 14px;
     border: 0;
     
 }
@@ -54,7 +58,7 @@ body{
     display: flex;
     gap: 40px;
     justify-content: space-between;
-    padding: 0 140px;
+    padding: 0 240px;
     align-items: center;
 }
 .banner-details{
@@ -87,7 +91,7 @@ body{
     
 }
 .img-conteiner img{
-    max-width: 511px;
+    max-width: 711px;
 }
 
 /* gamer section style */
@@ -95,12 +99,12 @@ body{
 .gamer-conteiner{
     display: flex;
     gap: 20px;
-    padding: 50px 140px;
+    padding: 50px 240px;
     
 
 }
 .gamer-img{
-    max-width: 550px;
+    max-width: 750px;
 }
 .gamer-details{
     text-align: right;
@@ -108,7 +112,7 @@ body{
 .gamer-heading{
     /* text-align: right; */
     line-height: 20px;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 800;
 }
 .gamer-text{
@@ -139,7 +143,7 @@ body{
 .online-text{
     text-align: center;
     line-height: 10px;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 800;
 }
 .online-span, .gamer-heading{
@@ -160,18 +164,18 @@ body{
 
     display: flex;
     gap: 10px;
-    padding: 10px 140px;
+    padding: 10px 240px;
     align-items: center;
     justify-content: space-evenly;
 }
 .videos-conteiner img{
-    max-width: 245px;
+    max-width: 315px;
     /* max-height: 330px; */
 }
 
 .hover-effect {
     position: relative;
-    width: 245px; /* Adjust the width and height as needed */
+    width: 315px; /* Adjust the width and height as needed */
     /* height: 330px; */
     overflow: hidden;
 }
@@ -219,10 +223,10 @@ body{
 .instant-box{
     
     display: flex;
-    gap: 130px;
+    gap: 90px;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 140px;
+    padding: 70px 240px;
 }
 
 .instant-text{
@@ -242,16 +246,16 @@ body{
     margin: 0;
 }
 .img-conteiner img{
-    max-width: 490px;
+    max-width: 635px;
 }
 .moving-section img{
-    max-width: 210px;
+    max-width: 280px;
     position: relative;
 }
 .moving-section{
     position: absolute;
-    left: 42%;
-    bottom: 30px;
+    left: 47%;
+    bottom: 27px;
     /* top: 60px; */
 }
 
@@ -262,7 +266,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 0 140px;
+    padding: 0 240px;
     margin: 0;
     margin-top: 20px;
 
@@ -324,7 +328,7 @@ body{
     justify-content: center;
 }
 .our-services{
-    font-size: 14px;
+    font-size: 16px;
 }
 .icon-conteiner{
     display: flex;
@@ -341,7 +345,7 @@ body{
 /* security section */
 .security-text, .address{
     color: #FFF;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 
 }
