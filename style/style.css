@@ -23,20 +23,21 @@ body{
 
 }
 .logo{
-    width: 55px;
-    height: 27px;
+    width: 60px;
+    height: 30px;
 }
 .primary-tex{
-    font-size: 42px;
+    font-size: 45px;
 }
 .span-text{
     color: #FF42A5;
 }
 .nav-text{
-    font-size: 15px;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
 }
 .nav-btn {
-    font-size: 14px;
+    font-size: 15px;
     border: 0;
     
 }
@@ -48,8 +49,8 @@ body{
     display: flex;
     gap: 0 10px; 
     align-items: center;
-    border-radius: 8px;
-    padding: 0 10px;
+    border-radius: 25px;
+    padding: 0 20px;
 }
 
 /* main section start */
@@ -60,6 +61,27 @@ body{
     justify-content: space-between;
     padding: 0 240px;
     align-items: center;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.banner-thems{
+    color: #c42beb;
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+    
+}
+.instractions{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 }
 .banner-details{
     padding: 30px;
@@ -74,6 +96,7 @@ body{
     align-items: center;
 }
 .banner-btn1, .banner-btn2, .gamer-btn {
+    font-size: 16px;
     padding: 21px 40px;
     background-color: #FF42A5;
     color: #FFFFFF;
@@ -83,13 +106,7 @@ body{
 .banner-btn2{
     background-color: #4EC5F7;
 }
-.banner-thems{
-    color: #c42beb;
-    font-size: 42px;
-    font-weight: 800;
-    margin: 0;
-    
-}
+
 .img-conteiner img{
     max-width: 711px;
 }
@@ -110,22 +127,19 @@ body{
     text-align: right;
 }
 .gamer-heading{
-    /* text-align: right; */
     line-height: 20px;
-    font-size: 34px;
+    font-size: 45px;
     font-weight: 800;
 }
 .gamer-text{
-    
-    /* text-align: right; */
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
    
     font-weight: 400; 
 }
 .our-propose{
     color: #534C64;
-    font-size: 17px;
+    font-size: 19px;
 }
 .propose-span{
     color: #534C64;
@@ -137,13 +151,14 @@ body{
 
 /* online videos section */
 
-.text-conteiner{
+.online-text-conteiner{
     margin-top: 40px;
+    padding: 10px 0;
 }
 .online-text{
     text-align: center;
     line-height: 10px;
-    font-size: 34px;
+    font-size: 45px;
     font-weight: 800;
 }
 .online-span, .gamer-heading{
@@ -152,31 +167,35 @@ body{
 }
 .online-description, .online-details{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
-   
     font-weight: 400; 
 }
 .online-details{
     text-align: left;
 }
+.online-details1{
+    width: 200px;
+}
 .videos-conteiner{
-
     display: flex;
-    gap: 10px;
+    gap: 15px;
     padding: 10px 240px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+.videos{
+    max-width: 315px;
 }
 .videos-conteiner img{
-    max-width: 315px;
-    /* max-height: 330px; */
+    max-width: 100%;
+    
 }
 
 .hover-effect {
     position: relative;
     width: 315px; /* Adjust the width and height as needed */
-    /* height: 330px; */
     overflow: hidden;
 }
 
@@ -229,11 +248,15 @@ body{
     padding: 70px 240px;
 }
 
+.text-conteiner{
+    max-width: 341px;
+    text-align: right;
+}
+
 .instant-text{
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
-    text-align: right;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -242,7 +265,6 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    text-align: right;
     margin: 0;
 }
 .img-conteiner img{
@@ -358,7 +380,7 @@ body{
         align-items: center;
         justify-content: center;
         gap: 5px;
-        padding: 20px 70px;
+        padding: 0 70px;
         box-shadow: none;
     }
     /* banner section */
@@ -369,8 +391,8 @@ body{
         padding: 10px 70px;
         min-width: 160px;
     }
-    .img-conteiner img{
-        min-width: 160px;
+    .gamer-img-conteiner img{
+        max-width: 360px;
     }
     /* gamer section */
     .gamer-conteiner{
@@ -383,23 +405,119 @@ body{
         text-align: center;
     }
     /* online section */
-    .videos-conteiner{
 
+    .online-text{
+        font-size: 38px;
+        padding: 0 20px;
+    }
+    .videos-conteiner{
         flex-direction: column;
         gap: 10px;
-        padding: 10px 70px;
-        align-items: center;
-        justify-content: space-evenly;
+        padding: 10px 120px;
+        
     }
+
+    .online-details{
+        text-align: center;
+    }
+    
 
     /* play instant section */
     .instant-box{
     
         flex-direction: column;
-        gap: 130px;
+        gap: 40px;
+        padding: 0 70px;
+    }
+    .text-conteiner{
+        max-width: 341px;
+        text-align: center;
+    }
+
+    .img-conteiner img{
+        max-width: 335px;
+    }
+    .moving-section img{
+        max-width: 140px;
+        position: relative;
+    }
+    .moving-section{
+        position: absolute;
+        left: 12%;
+        bottom: -12px;
+        
+    }
+    /* game logo section */
+
+    .logo-conteiner{
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px 70px;
+        margin-top: 20px;
+    
+    }
+    .logo-btn{
+        
+        gap: 5px;
+        align-items: center;
+        border: 0;
+        background-color: #FFF;
+        border-radius: 25px;
+    }
+    .logo-btn img{
+        width: 15px;
+    }
+    .logo-name{
+        color: #0B0223;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    /* footer section */
+    .footer-section{
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .footer-logo{
+        flex-wrap: wrap;
+        gap: 20px;
+        
+        padding-top: 20px ;
+    
+    }
+    
+    .service-details {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 10px 130px;
+       
+    }
+    .our-services{
+        font-size: 12px;
+    }
+    .icon-conteiner{
+        flex-wrap: wrap;
+        gap: 30px;
         align-items: center;
         justify-content: center;
-        padding: 20px 70px;
+        padding: 10px 130px;
+        
+        
     }
+    .security-options{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px 90px;
+        line-height: 30px;
+        
+        
+    }
+    .address-details{
+        font-size: 11px;
+        line-height: 24px;
+        padding: 5px 130px;
+        
+    }
+
     
 }
