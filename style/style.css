@@ -387,5 +387,15 @@ body{
         align-items: center;
         justify-content: space-evenly;
     }
+
+    /* play instant section */
+    .instant-box{
+    
+        flex-direction: column;
+        gap: 130px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 70px;
+    }
     
 }
