@@ -14,7 +14,7 @@ body{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 0 150px;
 }
-.logo-section{
+.logo-section {
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -220,12 +220,15 @@ body{
     margin-top: 20px;
 
 }
-.logo-div{
+.logo-btn{
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     align-items: center;
+    border: 0;
+    background-color: #FFF;
+    border-radius: 25px;
 }
-.logo-div img{
+.logo-btn img{
     width: 25px;
 }
 .logo-name{
@@ -233,14 +236,84 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
-.logo-div:hover{
+.logo-div :hover{
     background-color: #FFF;
+    color: #FF42A5;
     border: 1.3px solid #FF42A5;
     border-radius: 25px;
     padding:0 10px;
 }
+.logo-name:hover{
+    color: #FF42A5;
+    border: 0;
+}
+.logo-btn :hover{
+    border: 0;
+}
+
 
 /* footer section styles */
 
+.footer-section{
+    background-color: #0B0223;
+    margin-top: 50px;
+    padding: 70px 0 120px;
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px ;
 
+}
+.footer-heading, .our-services{
+    color: #FFF;
+}
+.service-details, .security-options {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.our-services{
+    font-size: 14px;
+}
+.icon-conteiner{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 16px;
+    
+}
+/* .fb-icon{
+    background-color: #1877F2;
+    margin: 0;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+}
+.youtube-icon{
+    background-color: red;
+    margin: 0;
+    border-radius: 13px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    
+    padding: 0;
+} */
+
+/* security section */
+.security-text, .address{
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+
+}
 
