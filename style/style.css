@@ -64,7 +64,6 @@ body{
 }
 .banner-title{
     color: #0B0223;
-    text-align: center;
     font-size: 45px;
     font-weight: 600;
     text-transform: uppercase;
@@ -115,7 +114,7 @@ body{
 
 .gamer-conteiner{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding: 50px 240px;
     
 
@@ -176,6 +175,8 @@ body{
 }
 .online-details1{
     max-width: 12.5rem;
+    font-size: 18px;
+    line-height: 20px;
 }
 .videos-conteiner{
     display: flex;
@@ -375,11 +376,9 @@ body{
 
 /* media queary for responsive for mobole*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 576px) {
     .nav-bar, .navigation{
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 5px;
         padding: 0 20px;
         box-shadow: none;
@@ -387,8 +386,20 @@ body{
     /* banner section */
     .banner-conteiner{
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
         padding: 10px 20px;
         min-width: 160px;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-thems{
+        font-size: 50px;
+        
+    }
+    .instractions{
+        font-size: 15px;
     }
     .banner-btn1, .banner-btn2{
         font-size: 15px;
@@ -402,16 +413,24 @@ body{
     }
     .gamer-conteiner{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 10px 10px;
     }
     .gamer-heading{
         font-size: 30px;
     }
+    .gamer-text{
+        font-size: 14px;
+    }
     .gamer-details{
         text-align: center;
     }
+    .gamer-btn {
+        padding: 15px 30px;
+    }
     .propose-span{
-        font-size: 22px;
+        font-size: 21px;
     }
     /* online section */
 
@@ -427,7 +446,9 @@ body{
         padding: 10px 20px;
         
     }
-
+    .online-description{
+        font-size: 14px;
+    }
     .online-details{
         text-align: center;
     }
@@ -435,7 +456,6 @@ body{
 
     /* play instant section */
     .instant-box{
-    
         flex-direction: column;
         gap: 40px;
         padding: 0 10px;
@@ -449,7 +469,7 @@ body{
         line-height: 35px;
     }
     .img-conteiner img{
-        max-width: 270px;
+        max-width: 240px;
     }
     .moving-section img{
         max-width: 110px;
@@ -532,43 +552,155 @@ body{
     
 }
 /* for tablet */
-@media screen and (max-width: 768px) {
-    /* instant sections img positioning */
+@media screen and (min-width: 577px) and (max-width: 992px) {
     
-    .img-conteiner img{
-        max-width: 370px;
+    /* nav bar responsive */
+    .nav-bar{
+        gap: 30px;
+        padding: 0 30px;
+        box-shadow: none;
     }
-    .moving-section img{
+    .logo{
+        width: 43px;
+        height: 23px;
+    }
+    .primary-tex{
+        font-size: 32px;
+    }
+    .nav-text{
+        font-size: 11px;
+    }
+
+    /* banner section */
+    .banner-conteiner{
+        padding: 0 30px;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .gamer-details{
+        text-align: center;
+    }
+    .banner-thems{
+        font-size: 40px;
+    }
+    .instractions{
+        font-size: 15px;
+    }
+    .banner-btn1, .banner-btn2{
+        font-size: 12px;
+        padding: 12px 35px;
+
+    }
+    .img-conteiner img{
+        max-width: 450px;
+    }
+
+    /* gamer section responsive */
+    .gamer-conteiner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px 140px 10px;
+    }
+    .gamer-img{
+        max-width: 550px;
+    }
+    .gamer-heading{
+        font-size: 30px;
+    }
+    /* logo section for responsive */
+
+    .videos-conteiner{
+        gap: 10px;
+        padding: 10px 40px;
+       
+    }
+    .videos{
         max-width: 150px;
     }
-    .moving-section{
-        left: 18%;
-        bottom: -21px;
+    .videos-conteiner img{
+        max-width: 100%;
         
     }
-    /* logo section for tab */
-
-    .logo-conteiner{
-        gap: 7px;
-        padding: 30px 120px 20px;
     
-    }
-    .logo-btn{
-        gap: 5px;
+    .hover-effect {
         
+        max-width: 215px; /* Adjust the width and height as needed */
+        
+    }
+    .online-text{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .online-details{
+        font-size: 10px;
+
+    }
+    .online-details1{
+        max-width: 7rem;
+        font-size: 10px;
+    }
+    /* instant sections img positioning */
+    
+    .instant-box{
+        width: 650px;
+        gap: 90px;
+        padding: 40px 40px;
+    }
+    .text-conteiner{
+        max-width: 241px;
+        text-align: right;
+    }
+    .instant-text{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .instant-details{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .img-conteiner img{
+        max-width: 300px;
+    }
+    .moving-section img{
+        max-width: 140px;
+    }
+    .moving-section{
+        left: 43%;
+        bottom: 15px;
+        
+    }
+    /* logo section responsive for tab. */
+    .logo-conteiner{
+        gap: 10px;
+        padding: 0 40px;
+        margin: 0;
+        padding-top: 20px;
+    
     }
     .logo-btn img{
         width: 25px;
     }
     .logo-name{
-        font-size: 14px;
+        font-size: 16px;
     }
     .logo-div :hover{
         padding:0 8px;
-        border-radius: 50px;
     }
+    /* footer section */
+    .service-details, .security-options {
+        gap: 25px;
+    }
+    .icon-conteiner{
+        gap: 20px;
+        
+    }
+
     
 }
+
 /*  responsive for laptop */
 @media screen and (max-width: 1440px){
     
@@ -648,8 +780,3 @@ body{
 
 
 }
-
-
-
-
-
