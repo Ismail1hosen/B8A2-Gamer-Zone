@@ -592,68 +592,73 @@ body{
     
     /* nav bar responsive */
     .nav-bar{
-        gap: 30px;
-        padding: 0 30px;
+        gap: 1.9rem;
+        padding: 0 3.5rem;
         box-shadow: none;
     }
     .logo{
-        width: 43px;
+        width: 2.64rem;
         height: 23px;
     }
     .primary-tex{
-        font-size: 32px;
+        font-size: 2rem;
     }
     .nav-text{
-        font-size: 11px;
+        font-size: 0.7rem;
     }
 
     /* banner section */
     .banner-conteiner{
-        padding: 0 30px;
+        padding: 0 1.9rem;
     }
     .banner-title{
-        font-size: 30px;
+        font-size: 1.9rem;
     }
     .gamer-details{
         text-align: center;
     }
     .banner-thems{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .instractions{
-        font-size: 15px;
+        font-size: 1rem;
     }
     .banner-btn1, .banner-btn2{
-        font-size: 12px;
-        padding: 12px 35px;
+        font-size: 0.75rem;
+        padding: 0.75rem 2.1rem;
 
     }
     .img-conteiner img{
-        max-width: 450px;
+        max-width: 90%;
     }
 
     /* gamer section responsive */
     .gamer-conteiner{
         flex-direction: column-reverse;
-        justify-content: center;
-        gap: 20px;
-        padding: 50px 140px 10px;
+        text-align: center;
+        /* justify-content: center; */
+        gap: 1.25rem;
+        padding: 3.1rem 5.8rem 0.6rem;
+        max-width: 100%;
+    }
+    .gamer-details{
+        max-width: 100%;
     }
     .gamer-img{
-        max-width: 550px;
+        max-width: 90%;
     }
     .gamer-heading{
-        font-size: 30px;
+        font-size: 1.9rem;
     }
     /* logo section for responsive */
 
     .videos-conteiner{
-        gap: 10px;
-        padding: 10px 40px;
+        gap: 0.6rem;
+        padding: 0.6rem 2.5rem;
        
     }
     .videos{
-        max-width: 150px;
+        max-width: 20%;
     }
     .videos-conteiner img{
         max-width: 100%;
@@ -662,7 +667,7 @@ body{
     
     .hover-effect {
         
-        max-width: 215px; /* Adjust the width and height as needed */
+        max-width: 100%; /* Adjust the width and height as needed */
         
     }
     .online-text{
@@ -679,33 +684,33 @@ body{
     }
     /* instant sections img positioning */
     
-    .instant-box{
-        width: 650px;
-        gap: 90px;
-        padding: 40px 40px;
+    .instant-conteiner{
+        max-width: 100%;
+        gap: 5rem;
+        padding: 2.5rem 2.5rem;
     }
     .text-conteiner{
-        max-width: 241px;
+        max-width: 45%;
         text-align: right;
     }
     .instant-text{
-        font-size: 30px;
-        line-height: 40px;
-        padding-bottom: 10px;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        padding-bottom: 0.6rem;
     }
     .instant-details{
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
     .img-conteiner img{
-        max-width: 300px;
+        max-width: 100%;
     }
     .moving-section img{
-        max-width: 140px;
+        max-width: 40%;
     }
     .moving-section{
-        left: 43%;
-        bottom: 15px;
+        left: 50%;
+        bottom: 4%;
         
     }
     /* logo section responsive for tab. */
